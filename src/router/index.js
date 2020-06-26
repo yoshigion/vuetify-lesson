@@ -4,11 +4,41 @@ import Home from '../views/Home.vue'
 
 Vue.use(VueRouter)
 
-  const routes = [
+const routes = [
   {
     path: '/',
     name: 'Home',
     component: Home
+  },
+  {
+    path: '/enterprise',
+    name: 'Enterprise',
+    component: () => import('../views/Enterprise.vue')
+  },
+  {
+    path: '/consulting-and-support',
+    name: 'Consulting and Suppourt',
+    component: () => import('../views/Enterprise.vue')
+  },
+  {
+    path: '/discord-community',
+    name: 'Discord Community',
+    component: () => import('../views/Enterprise.vue')
+  },
+  {
+    path: '/report-a-bug',
+    name: 'Report a Bug',
+    component: () => import('../views/Enterprise.vue')
+  },
+  {
+    path: '/github-issue-board',
+    name: 'Github Issue Board',
+    component: () => import('../views/Enterprise.vue')
+  },
+  {
+    path: '/stack-overflow',
+    name: 'Stack Overflow',
+    component: () => import('../views/Enterprise.vue')
   },
   {
     path: '/about',
