@@ -1,0 +1,15 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-vuetifylesson-dev-200459-authRole",
+            "UnauthRoleArn": "arn:aws:iam::646858910844:role/amplify-vuetifylesson-dev-200459-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::646858910844:role/amplify-vuetifylesson-dev-200459-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplify-vuetifylesson-dev-200459-deployment",
+            "UnauthRoleName": "amplify-vuetifylesson-dev-200459-unauthRole",
+            "StackName": "amplify-vuetifylesson-dev-200459",
+            "StackId": "arn:aws:cloudformation:us-east-1:646858910844:stack/amplify-vuetifylesson-dev-200459/ed885ee0-b79c-11ea-9f9d-0ee5b554e1bc",
+            "AmplifyAppId": "d36j4zkica74a1"
+        }
+    }
+}
